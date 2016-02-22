@@ -46,7 +46,7 @@ Songs are retrieved using the API by echonest.
 
 Run a command like:
 
-`>java -Dapi=songs -Dartist=beatles  -Dtitle=jude -jar target/apiconsumer-0.0.1-SNAPSHOT.jar`
+`java -Dapi=songs -Dartist=beatles  -Dtitle=jude -jar target/apiconsumer-0.0.1-SNAPSHOT.jar`
 
 It will retrieve a list like:
 
