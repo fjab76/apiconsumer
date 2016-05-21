@@ -1,16 +1,21 @@
 package fjab.movie;
 
+import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
 
 /**
  * Created by franciscoalvarez on 21/02/2016.
  */
 public class MovieServiceTest {
+
+  @Rule
+  public WireMockRule wireMockRule = new WireMockRule(8888);
 
   private MovieService movieService;
 

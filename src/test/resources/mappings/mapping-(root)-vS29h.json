@@ -1,0 +1,27 @@
+{
+  "request" : {
+    "url" : "/?s=batman",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-(root)-vS29h.json",
+    "headers" : {
+      "Date" : "Sat, 21 May 2016 07:02:11 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Content-Length" : "1968",
+      "Connection" : "close",
+      "Set-Cookie" : "__cfduid=d4adf153bb27230a6d5187cbacb3c3ab71463814131; expires=Sun, 21-May-17 07:02:11 GMT; path=/; domain=.omdbapi.com; HttpOnly",
+      "Cache-Control" : "public, max-age=86400",
+      "Expires" : "Sun, 22 May 2016 07:02:11 GMT",
+      "Last-Modified" : "Sat, 21 May 2016 06:59:41 GMT",
+      "Vary" : "*",
+      "X-AspNet-Version" : "4.0.30319",
+      "X-Powered-By" : "ASP.NET",
+      "Access-Control-Allow-Origin" : "*",
+      "CF-Cache-Status" : "HIT",
+      "Server" : "cloudflare-nginx",
+      "CF-RAY" : "2a66294ff87734ac-LHR"
+    }
+  }
+}
