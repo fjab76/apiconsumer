@@ -5,6 +5,7 @@ import fjab.movie.MovieService;
 import fjab.song.SongResponse;
 import fjab.song.SongService;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.stream.Stream;
 

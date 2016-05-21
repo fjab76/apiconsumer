@@ -8,6 +8,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
+import org.springframework.web.client.RestTemplate;
 
 /**
  * Created by franciscoalvarez on 21/02/2016.
@@ -22,6 +23,7 @@ public class MovieServiceTest_withWireMock {
   @Before
   public void setUp() throws Exception {
     movieService = new MovieService();
+    movieService.setRestTemplate(new RestTemplate());
   }
 
 

@@ -1,0 +1,27 @@
+{
+  "request" : {
+    "url" : "/?s=r84fjdkjoeiue",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-(root)-5310i.json",
+    "headers" : {
+      "Date" : "Sat, 21 May 2016 18:40:47 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Content-Length" : "47",
+      "Connection" : "close",
+      "Set-Cookie" : "__cfduid=d9886943e60550b8059027b1ad90ea6761463856047; expires=Sun, 21-May-17 18:40:47 GMT; path=/; domain=.omdbapi.com; HttpOnly",
+      "Cache-Control" : "public, max-age=86400",
+      "Expires" : "Sun, 22 May 2016 18:40:47 GMT",
+      "Last-Modified" : "Sat, 21 May 2016 07:07:55 GMT",
+      "Vary" : "*",
+      "X-AspNet-Version" : "4.0.30319",
+      "X-Powered-By" : "ASP.NET",
+      "Access-Control-Allow-Origin" : "*",
+      "CF-Cache-Status" : "HIT",
+      "Server" : "cloudflare-nginx",
+      "CF-RAY" : "2a6a28ab15ea3476-LHR"
+    }
+  }
+}
